@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #1f1d1d;
+    font-family: NEXON Lv1 Gothic OTF;
+}
+
+nav{
+    width: 400px;
+    height: 100%;
+    position: fixed;
+    padding: 0px;
+    margin: 0px;
+    background-color: #2e2c2c;
+    box-shadow: 0px 10px 10px black;
+    text-align: center;
+}
+
+nav footer{
+    color: #f2f2f2;
+    padding-top: 50px;
+}
+
+.profile{
+    padding: 50px;
+    text-align: center
+}
+
+.profile img{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.name{
+    color: #f2f2f2;
+}
+
+.name_id{
+    color: #f2f2f2;
+    background-color: #1f1d1d;
+    padding: 5px;
+    -webkit-border-radius: 10px;
+}
+
+.menu1{
+    font-size: 20px;
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+section{
+    width: 1458px;
+    height: auto;
+    padding-left: 400px;
+}
+
+.section {
+    color: #f2f2f2;
+}
+
+.section hr{
+    color: #f2f2f2;
+}
+
+.section .name_id{
+    color: #1f1d1d;
+    background-color: #f2f2f2;
+    padding: 5px;
+    -webkit-border-radius: 10px;
+}
+
+.intro-animation{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 130%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100dvh;
+}
+
+.intro-animation a{
+    position: relative;
+    animation-name: intro;
+    animation-duration: 1.5s;
+}
+
+.div_title{
+    display: flex;
+    font-weight: bold;
+    font-size: 40px;
+    padding-left: 80px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+
+@keyframes intro{
+    from {
+        padding-top: 100%;
+    }
+    to {
+        padding-top: 0%;
+    }
+}
