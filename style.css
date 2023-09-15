@@ -8,6 +8,7 @@
 body{
     background-color: #1f1d1d;
     font-family: NEXON Lv1 Gothic OTF;
+    margin: 0px;
 }
 
 nav{
@@ -54,8 +55,12 @@ nav footer{
     color: #f2f2f2;
 }
 
+.menu2{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
 section{
-    min-width: 800px;
     max-width: 1458px;
     height: auto;
     padding-left: 400px;
