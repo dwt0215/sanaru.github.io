@@ -1,3 +1,3 @@
 # sanaru.github.io
 
-This repo is hosting for my site.
+This repo is hosting for my website.
