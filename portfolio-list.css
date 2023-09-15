@@ -1,0 +1,39 @@
+.mariel{
+    text-align: center;
+    padding-right: 1000px;
+}
+
+.mariel img {
+    /*align-items: center;
+    padding: 50px;*/
+    margin-top: 50px;
+    /*margin-left: 150px;*/
+    border-radius: 30%;
+}
+
+.mariel_name{
+    padding-top: 30px;
+}
+
+.mariel_section{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.video{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.youtube{
+    padding-top: 15px;
+}
+
+.work{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+span{
+    font-size: 15px;
+}
